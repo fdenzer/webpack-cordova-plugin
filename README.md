@@ -4,6 +4,8 @@
 ## Usage
 
 ```js
+// webpack.config.js excerpt
+
 var CordovaPlugin = require('webpack-cordova-plugin');
 
 new CordovaPlugin({
@@ -59,6 +61,14 @@ In order for Cordova to load correctly, your `index.html` must explictly refer t
 * `--content-base` is updated to the correct platform (e.g. `/platforms/android/assets/www`)
 
 ## Changelog
+
+#### 2019-06-06
+
+Documentation
+: Add comment in snippet. For clarity: snippet is used in second, not first step of installation.
+
+Security
+: *Note*, that an DoS issue exists
 
 #### 0.1.3 (31/10/2014)
 
